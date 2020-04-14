@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container game">
+         <div class="score"> 
+             <div class="playerScore">
+                 <h1>Player</h1>
+                 <p class="p">0</p>
+             </div>
+             <div class="computerScore">
+                 <h1>computer</h1>
+             <p class="p">0</p>
+             </div>
+         </div>
+
+         <div class="intro">
+             <h1>Rock Paper Scissors</h1>
+             <button class="btn btn-danger">Rock'n roll</button>
+         </div>
+
+         <div class="match fadeOut">
+         <h2 class="winner">choose an option </h2>
+         <div class="hands">
+             <img class="playerHand" src="/images/rock.png" alt="">
+             <img class="computerHand" src="/images/rock.png" alt="">
+
+         </div>
+         <div class="options">
+             <button class="rock btn">rock</button>
+             <button class="paper btn">paper</button>
+             <button class="scissors btn">scissors</button>
+          
+            </div>
+
+         </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
